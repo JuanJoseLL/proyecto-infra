@@ -25,7 +25,7 @@ variable "cluster_name" {
 variable "gke_node_machine_type" {
   description = "Machine type for GKE nodes."
   type        = string
-  default     = "e2-standard-4" // 4 vCPUs
+  default     = "e2-standard-5" // 5 vCPUs
 }
 
 variable "gke_initial_node_count" {
